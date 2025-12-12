@@ -15,6 +15,9 @@ function App() {
         <AboutMe />
         <Picture />
       </header>
+      <footer>
+        
+      </footer>
 
     </>
   );

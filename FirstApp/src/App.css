@@ -36,6 +36,7 @@ header{
   background: linear-gradient(rgb(27, 0, 26),rgb(48, 0, 70));
   padding: 20px;
   margin: 0;
+  
    
 }
 
@@ -44,8 +45,13 @@ a{
   text-decoration: none;
   color: rgba(255, 255, 255, 0.897);
   font-family: 'Roboto', sans-serif;
-  padding: 3px;
+  padding: 4px;
   font-size: 18px;
   
   
+}
+
+a:hover{
+  filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.897));
+  transition: 700ms;
 }

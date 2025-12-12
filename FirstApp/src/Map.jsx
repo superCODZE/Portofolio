@@ -8,7 +8,6 @@ function Map() {
                <a href='#' alt='My work'>Skills</a>
                <a href='#' alt='Contact'>Projects</a>
                <a href='#' alt='Contact'>Contact</a>
-
             </div>
         </>
     );

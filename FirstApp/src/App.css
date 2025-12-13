@@ -36,7 +36,7 @@ header{
   background: linear-gradient(rgb(27, 0, 26),rgb(48, 0, 70));
   padding: 20px;
   margin: 0;
-  
+ 
    
 }
 
@@ -55,3 +55,22 @@ a:hover{
   filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.897));
   transition: 700ms;
 }
+
+footer{
+  
+  background: linear-gradient(200deg, #9e471e, rgb(71, 12, 116));
+  height: 350px;
+  margin:0px;
+  
+}
+
+.contact-txt{
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.897);
+  padding: 5px;
+  margin-bottom: 0px;
+  
+}
+
+

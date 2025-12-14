@@ -4,20 +4,25 @@ header{
   margin:0px; 
   display: flex;
   align-items: center; 
-  gap: 60px; 
+  gap: 45px; 
 }     
 
 .About{
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.897);
-  padding: 85px;
+  padding: 90px;
+  padding-top: 60px;
   width: 50%;
 }
 
 .Name{
   margin-top: 10px;
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+  
 }
+
+
 
 .image{
   width: 400px;
@@ -36,7 +41,7 @@ header{
   background: linear-gradient(rgb(27, 0, 26),rgb(48, 0, 70));
   padding: 20px;
   margin: 0;
- 
+
    
 }
 
@@ -60,17 +65,29 @@ footer{
   
   background: linear-gradient(200deg, #9e471e, rgb(71, 12, 116));
   height: 350px;
-  margin:0px;
+  margin-top: auto;
   
+}
+
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-txt{
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
   color: rgba(255, 255, 255, 0.897);
-  padding: 5px;
-  margin-bottom: 0px;
-  
+  padding: 30px;
+  width: 40%;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+}
+
+.contact-title{
+  text-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
 }
 
 

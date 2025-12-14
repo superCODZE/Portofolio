@@ -10,17 +10,20 @@ import './App.css'
 function App() {
   return (
     <>
-      <nav>
+      <div className='App'>
+       <nav>
          <Map />
-      </nav>
-      <header>
-        <AboutMe />
-        <Picture />
-      </header>
-      <footer>
-        <ContactTxt />
-      </footer>
-
+       </nav>
+       <header>
+         <AboutMe />
+         <Picture />
+       </header>
+       <footer>
+         <ContactTxt />
+       </footer>
+      </div>
+     
+     
     </>
   );
 }

@@ -6,6 +6,7 @@ header{
   justify-content: center; 
   align-items: center;
   gap: 70px; 
+  margin-top: 50px;
 }     
 
 .About{
@@ -42,7 +43,8 @@ header{
   background: linear-gradient(rgb(27, 0, 26),rgb(48, 0, 70));
   padding: 20px;
   margin: 0;
-  
+  position: fixed;
+  width: 100%;
 }
 
 
@@ -90,4 +92,9 @@ footer{
   text-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
 }
 
+
+.Nav1{
+  
+  z-index: 1000;
+}
 

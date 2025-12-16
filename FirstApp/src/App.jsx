@@ -11,13 +11,17 @@ function App() {
   return (
     <>
       <div className='App'>
-       <nav>
+       <nav className='Nav1'>
          <Map />
        </nav>
+       
        <header>
          <AboutMe />
          <Picture />
        </header>
+       <main>
+        
+       </main>
        <footer>
          <ContactTxt />
        </footer>

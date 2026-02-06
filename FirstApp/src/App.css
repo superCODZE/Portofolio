@@ -10,6 +10,7 @@ header{
 }     
 
 .About{
+  animation: appear 0.6s linear;
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.897);
@@ -23,7 +24,17 @@ header{
   
 }
 
+@keyframes appear{
+    from{
+      opacity: 0;
+      scale: 0.5;
+    }
 
+    to{
+      opacity: 1;
+      scale: 1;
+    }
+  }
 
 .image{
   width: 400px;
@@ -31,6 +42,10 @@ header{
   filter: drop-shadow(0px 0px 5px rgb(255, 240, 157));
   border-radius: 20px;
   padding-top: 0px;
+  animation: appear 0.6s linear;
+  
+  
+  
   
 }
 
@@ -89,6 +104,7 @@ footer{
 }
 
 .contact-title{
+  
   text-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
 }
 
@@ -105,3 +121,4 @@ footer{
   margin-left: 10px;
   margin-top: 30px;
 }
+
